@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   <!--
+      JavaScript 6th Edition  v 1.16
+     
+
+      Individual Project Template
+  
+      Author: Brett Wolf
+      Date:   Feb. 13, 2017
+
+      Filename: page 2.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0">
+   <title>Individual Student Project Template 1</title>
+   <link rel="stylesheet" media="screen and (min-device-width: 1000px)" href="project.css" />
+   <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" type="text/css">
+   
+</head>
+
+<body>
+   <div id="container">
+      <header>
+         <h1>
+            WAVYMAN COMPANY     <!-- Website header present on each page as company name at the top, similar to any website that sells things, the company name is always present -->
+         </h1>
+      </header>
+
+      <nav>
+         <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li id="products"><a href="/products.html">Products</a></li>
+            <li id="currentpage"><a href="#">Orders</a></li>
+           <li id="moreinfo"><a href="moreinfo.html">More Information</a></li>
+        
+           </ul>  
+      </nav>
+        
+      <article>
+         <h2>Orders</h2>
+         <form>
+           
+                 <table id="ordersTable">             <!-- creates a table for orders so that the check boxes match up with the products on the same level -->
+        <tr>     
+          <td>
+                <input type="checkbox" id="item1" value="15" />
+          </td>  
+          <td>  
+                <label for="item1">Blue Man ($15.00)</label>
+          </td>
+        </tr>  
+         
+        <tr>    
+          <td>
+                <input type="checkbox" id="item2" value="20" />
+          </td>  
+          <td>  
+               <label for="item2">Red Man ($20.00)</label>
+          </td>    
+        </tr>  
+           
+        <tr>         
+          <td>
+               <input type="checkbox" id="item3" value="25" />
+          </td>
+          <td>  
+               <label for="item3">Green Man ($25.00)</label>
+          </td>
+        </tr>  
+      
+        <tr>         
+          <td>
+                <input type="checkbox" id="item4" value="30" />
+          </td>  
+          <td> 
+               <label for="item4">Yellow Man ($30.00)</label>
+          </td>   
+        </tr>
+         <tr>
+           <td>
+               <input type="button" value="Submit" id="sButton" />
+           </td>
+           <td>
+               <div id="total">                  <!-- total price of selected products displayed at the bottom of the table -->
+             </div>
+          </td>
+        </tr> 
+        
+      </table>
+        </form>
+      </article>
+    
+      <footer>
+         <p>Wavyman Company Inc. &bull; Salisbury, Maryland</p>     <!-- To customize bottom bar  -->
+        
+      </footer>
+   </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
